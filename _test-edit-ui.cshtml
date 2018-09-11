@@ -1,0 +1,30 @@
+<div>
+@{ var stringInputTypes = AsDynamic(App.Data["StringInputTypes"]).FirstOrDefault(); }
+String input types:  @Edit.Toolbar(stringInputTypes)
+@Edit.Toolbar(actions: "contentitems", contentType: "StringInputTypes")
+@Edit.Toolbar(actions: "new", contentType: "StringInputTypes")
+</div>
+<div>
+@{var simpleInputTypes = AsDynamic(App.Data["SimpleInputTypes"]).FirstOrDefault();}
+Simple input types:  @Edit.Toolbar(simpleInputTypes)
+@Edit.Toolbar(actions: "contentitems", contentType: "SimpleInputTypes")
+@Edit.Toolbar(actions: "new", contentType: "SimpleInputTypes")
+</div>
+<div>
+@{var hyperlinkInputTypes = AsDynamic(App.Data["HyperlinkInputTypes"]).FirstOrDefault();}
+Hyperlink input types:  @Edit.Toolbar(hyperlinkInputTypes)
+@Edit.Toolbar(actions: "contentitems", contentType: "HyperlinkInputTypes")
+@Edit.Toolbar(actions: "new", contentType: "HyperlinkInputTypes")
+</div>
+<div>
+@{var entityInputTypes = AsDynamic(App.Data["EntityInputTypes"]).FirstOrDefault();}
+Entity input types:  @Edit.Toolbar(entityInputTypes)
+@Edit.Toolbar(actions: "contentitems", contentType: "EntityInputTypes")
+@Edit.Toolbar(actions: "new", contentType: "EntityInputTypes")
+</div>
+<div>
+@{var wysiwygInputTypes = AsDynamic(App.Data["WysiwygInputTypes"]).FirstOrDefault();}
+Wysiwyg input types:  @Edit.Toolbar(wysiwygInputTypes)
+@Edit.Toolbar(actions: "contentitems", contentType: "WysiwygInputTypes")
+@Edit.Toolbar(actions: "new", contentType: "WysiwygInputTypes")
+</div>
