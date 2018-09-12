@@ -1,17 +1,3 @@
-@{ 
-<h3>Test input types with default configuration:</h3>
-foreach(var c in AsDynamic(App.Data["SimpleTestList"])) {
-string title = c.EntityTitle;
-<div>
-@{ var test = AsDynamic(App.Data[@title]).FirstOrDefault(); }
-<b>@title input types:</b>   @Edit.Toolbar(test)
-@Edit.Toolbar(actions: "contentitems", contentType: @title )
-@Edit.Toolbar(actions: "new", contentType: @title)
-</div>
-}
-}
-
-<br><br>
 <h3>Test all input types with different configurations:</h3>
 @{ 
 foreach(var c in AsDynamic(App.Data["Test Different Configurations"])) {
@@ -19,8 +5,7 @@ string title = c.EntityTitle;
 <div>
 @{ var test = AsDynamic(App.Data[@title]).FirstOrDefault(); }
 <b>@title:</b>   @Edit.Toolbar(test)
-@Edit.Toolbar(actions: "contentitems", contentType: @title )
-@Edit.Toolbar(actions: "new", contentType: @title)
+@Edit.Toolbar(actions: "contentitems,new,contenttype", contentType: @title )
 </div>
 }
 }
