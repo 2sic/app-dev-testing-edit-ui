@@ -16,6 +16,7 @@ Main view (_test-edit-ui.cshtml) has tests for every input type in different con
 * Empty Default
 * DateTime Default
 * Entity Default
+* All InputTypes Undefined
 
 Presentation view (_test-edit-ui-presentation.cshtml) has example of presentation options
 

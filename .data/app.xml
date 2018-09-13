@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.33.00" ExportDate="2018-09-12T16:10:56.5438591+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.33.00" ExportDate="2018-09-13T09:50:43.3611633+02:00">
   <Header>
     <App Guid="0d207450-2363-432d-9d04-02ffaee74767" />
     <Language Default="en-US" />
@@ -2771,6 +2771,94 @@
             <Value Key="MetadataContentTypes" Value="" Type="String">
               <Dimension DimensionID="3" ReadOnly="false" />
             </Value>
+          </Entity>
+        </Attribute>
+      </Attributes>
+    </AttributeSet>
+    <AttributeSet StaticName="0ca7469f-0736-4ab2-aca6-9294cba1e9f2" Name="InputTypes Undefined" Description="" Scope="2SexyContent" AlwaysShareConfiguration="false">
+      <Attributes>
+        <Attribute StaticName="GroupUndefinedInputTypes" Type="Empty" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="20285856-9cc3-4258-88d5-6bde47922a53" KeyNumber="2009">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="GroupUndefinedInputTypes" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="StringDefault" Type="String" IsTitle="true">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="3cb05daf-abe8-4e96-80d1-0cc34ef7adaa" KeyNumber="2004">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="StringDefault" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="DropDownDefault" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="bcfdca99-a1d0-4d06-afa1-c20b0d2267dd" KeyNumber="2005">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="DropDownDefault" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="FontIconPicker" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="35cd5819-1677-492e-a0ef-8eac35af5cd4" KeyNumber="2006">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="FontIconPicker" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="UrlPath" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="deb70d59-7fb9-4de1-8ac6-ab024a99da25" KeyNumber="2007">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="UrlPath" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="WysiwygTinyMCE" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="e9c340eb-3b91-4541-92a8-dab43dc8dd4f" KeyNumber="2008">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="WysiwygTinyMCE" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Number" Type="Number" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="08c94e33-ea2d-47de-8a0a-b6ab5cf9dadb" KeyNumber="2010">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="Number" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Boolean" Type="Boolean" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="1f72a4e0-3efa-4ad3-82f6-4832f61ded5e" KeyNumber="2011">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="Boolean" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="HyperLink" Type="Hyperlink" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="90a15f2c-9551-4293-a5d3-d78504fdb4f3" KeyNumber="2012">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="HyperLink" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="HyperLinkLibrary" Type="Hyperlink" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="cd6b8ecf-15cc-4048-94e6-398827fb6bf0" KeyNumber="2013">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="HyperLinkLibrary" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="DateTime" Type="DateTime" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="feda313c-7a19-4a4e-98c0-275be16267dd" KeyNumber="2014">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="DateTime" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Entity" Type="Entity" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="5f40e92c-4e34-42f3-98b2-6e6d33ccf7e8" KeyNumber="2015">
+            <Value Key="InputType" Value="" Type="String" />
+            <Value Key="Name" Value="Entity" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
           </Entity>
         </Attribute>
       </Attributes>
@@ -5712,6 +5800,11 @@
         <Dimension DimensionID="3" ReadOnly="false" />
       </Value>
     </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ab467d32-7ec3-4ee5-a802-7e89abf001ed" AttributeSetName="Test Different Configurations" EntityGUID="f59bd649-b636-40b1-ba6c-8e713fb06238">
+      <Value Key="Title" Value="InputTypes Undefined" Type="String">
+        <Dimension DimensionID="3" ReadOnly="false" />
+      </Value>
+    </Entity>
   </Entities>
   <PortalFiles>
     <File Id="1326" RelativePath="adam\App Dev Testing Edit UI\c-SqbobtpEiZX1uLyag6Kg\WithDefaultValue\smallImage.jpg" />
@@ -5736,6 +5829,9 @@
     <Folder Id="2490" RelativePath="adam/App Dev Testing Edit UI/7-gif4VMbU6U8V8ym786TA/WithoutDeco/" />
     <Folder Id="2429" RelativePath="adam/App Dev Testing Edit UI/7-gif4VMbU6U8V8ym786TA/WithRegex/" />
     <Folder Id="2431" RelativePath="adam/App Dev Testing Edit UI/7-gif4VMbU6U8V8ym786TA/WithRequired/" />
+    <Folder Id="2518" RelativePath="adam/App Dev Testing Edit UI/Ch3DH8v0WES0C2tO_DnN0Q/" />
+    <Folder Id="2521" RelativePath="adam/App Dev Testing Edit UI/Ch3DH8v0WES0C2tO_DnN0Q/HyperLink/" />
+    <Folder Id="2520" RelativePath="adam/App Dev Testing Edit UI/Ch3DH8v0WES0C2tO_DnN0Q/HyperLinkLibrary/" />
     <Folder Id="2455" RelativePath="adam/App Dev Testing Edit UI/c-SqbobtpEiZX1uLyag6Kg/" />
     <Folder Id="2465" RelativePath="adam/App Dev Testing Edit UI/c-SqbobtpEiZX1uLyag6Kg/WithAdvancedSettings/" />
     <Folder Id="2461" RelativePath="adam/App Dev Testing Edit UI/c-SqbobtpEiZX1uLyag6Kg/WithAllMenusAndButtons/" />
