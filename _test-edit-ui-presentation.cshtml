@@ -1,3 +1,13 @@
 
 <b>Edit content with presentation settings: </b>
 @Edit.Toolbar(Content, actions: "edit")
+
+
+
+@Content.FieldContentBlock.Count
+
+<div class="sc-content-block-list" @Edit.ContextAttributes(Content, field: "FieldContentBlock")>
+    @foreach(var contentBlock in AsDynamic(Content.FieldContentBlock)){
+        @contentBlock.Render()
+    }
+</div>
